@@ -4,7 +4,7 @@ import Head from "next/head";
 
 const App = () => {
   return (
-    <main>
+    <main className="frontpage">
       <Head>
         <title>Hello Next!</title>
       </Head>
