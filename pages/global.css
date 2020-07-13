@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 30px 30px 50px;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+main {
+  max-width: 540px;
+  margin: auto;
+}
+
+h1 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+a {
+  color: #00a1fe;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #f55;
+}
+
+code,
+pre {
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  font-family: monospace;
+}
+
+pre {
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+}
